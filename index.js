@@ -21,9 +21,6 @@ else if (firstAnswer === 'right') {
     let secondAnswer = window.prompt(`You come across a snoring dragon. 
 On the other side of him, you see a shiny chest of treasure. Another path would 
 lead you away from the dragon altogether. Which path do you take? (treasure or away)`)
-}
-
-
 if (secondAnswer==='treasure'){
     let thirdAnswer = window.prompt (`The dragon wakes up and sits upright. You only have a moment to respond, to stay or run:`)
 }
@@ -31,3 +28,7 @@ else if (secondAnswer==='away'){
     let thirdAnswer=window.prompt(`After walking a while longer, you come across a shiny blue flower. 
     It is so beautiful that you decide you must either draw it or pick it. Which do you do?`)
 }
+}
+
+
+
